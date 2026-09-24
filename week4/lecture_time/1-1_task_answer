@@ -1,0 +1,162 @@
+C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\.venv\Scripts\python.exe C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\lecture_time\main.py
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 183860
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 179884
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 183860
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 181920
+--- Joined thread team. Execution returned to serial master ---
+
+1 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 181580
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 148736
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 181580
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 182716
+--- Joined thread team. Execution returned to serial master ---
+
+2 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 174804
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 182252
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 174804
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 182616
+--- Joined thread team. Execution returned to serial master ---
+
+3 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 170168
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 168072
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 170168
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 147640
+--- Joined thread team. Execution returned to serial master ---
+
+4 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 150136
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 181292
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 150136
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 184160
+--- Joined thread team. Execution returned to serial master ---
+
+5 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 162456
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 178504
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 162456
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 156332
+--- Joined thread team. Execution returned to serial master ---
+
+6 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 181808
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 177668
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 181808
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 178428
+--- Joined thread team. Execution returned to serial master ---
+
+7 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 155164
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 162720
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 155164
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 166948
+--- Joined thread team. Execution returned to serial master ---
+
+8 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 180860
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 182204
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 180860
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 16484
+--- Joined thread team. Execution returned to serial master ---
+
+9 execution completed successfully.
+--- Forking a team of 4 threads ---
+[Master] Logical Rank: 0 of 4 | Native OS TID: 125152
+[Worker] Logical Rank: 3 of 4 | Native OS TID: 181260
+[Worker] Logical Rank: 1 of 4 | Native OS TID: 125152
+[Worker] Logical Rank: 2 of 4 | Native OS TID: 179652
+--- Joined thread team. Execution returned to serial master ---
+
+10 execution completed successfully.
+
+Process finished with exit code 0
+
+
+
+
+// task  1. 2
+
+
+
+C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\.venv\Scripts\python.exe C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\lecture_time\main1_2.py
+Logical CPU cores detected: 16
+
+P =   1 | Avg Time = 0.501 ms | Trials(ms) = [1.205, 0.338, 0.264, 0.352, 0.344]
+P =   2 | Avg Time = 0.418 ms | Trials(ms) = [0.491, 0.343, 0.333, 0.424, 0.497]
+P =   4 | Avg Time = 0.792 ms | Trials(ms) = [0.538, 1.427, 0.696, 0.642, 0.658]
+P =   8 | Avg Time = 1.278 ms | Trials(ms) = [1.528, 1.384, 1.213, 1.059, 1.207]
+P =  16 | Avg Time = 1.906 ms | Trials(ms) = [2.037, 1.91, 2.107, 1.686, 1.79]
+P =  32 | Avg Time = 2.573 ms | Trials(ms) = [2.593, 3.218, 2.154, 2.564, 2.334]
+P =  64 | Avg Time = 3.774 ms | Trials(ms) = [3.782, 3.844, 3.519, 4.217, 3.507]
+
+Saved results to task1_2_oversubscription.csv
+
+Process finished with exit code 0
+
+
+
+ ____________________________
+ task 1.3
+C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\.venv\Scripts\python.exe C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\lecture_time\main1_3.py
+Starting CPU saturation test.
+IMPORTANT: Open Task Manager (Performance tab, or per-core CPU view) NOW
+and watch core utilization while each P value runs.
+
+--- Running P = 1 threads, 10,000,000 sqrt ops each ---
+P =   1 | Elapsed Time = 0.7645 s
+
+--- Running P = 2 threads, 10,000,000 sqrt ops each ---
+P =   2 | Elapsed Time = 1.5423 s
+
+--- Running P = 4 threads, 10,000,000 sqrt ops each ---
+P =   4 | Elapsed Time = 3.6209 s
+
+--- Running P = 8 threads, 10,000,000 sqrt ops each ---
+P =   8 | Elapsed Time = 7.1467 s
+
+--- Running P = 16 threads, 10,000,000 sqrt ops each ---
+P =  16 | Elapsed Time = 12.9253 s
+
+Saved results to task1_3_cpu_saturation.csv
+
+Process finished with exit code 0
+
+
+
+
+C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\.venv\Scripts\python.exe C:\Users\User\PycharmProjects\Parallel_comp\bonus_point\lecture_time\main1-3.py
+Starting CPU saturation test (NumPy / GIL-released variant).
+Open Task Manager NOW and watch per-core CPU usage.
+
+--- Running P = 1 threads, 10,000,000 sqrt ops each (NumPy) ---
+P =   1 | Elapsed Time = 0.5203 s
+
+--- Running P = 2 threads, 10,000,000 sqrt ops each (NumPy) ---
+P =   2 | Elapsed Time = 0.1374 s
+
+--- Running P = 4 threads, 10,000,000 sqrt ops each (NumPy) ---
+P =   4 | Elapsed Time = 0.2063 s
+
+--- Running P = 8 threads, 10,000,000 sqrt ops each (NumPy) ---
+P =   8 | Elapsed Time = 0.7112 s
+
+--- Running P = 16 threads, 10,000,000 sqrt ops each (NumPy) ---
+P =  16 | Elapsed Time = 0.8054 s
+
+Saved results to task1_3_cpu_saturation_numpy.csv
+
+Process finished with exit code 0
+
+
+
