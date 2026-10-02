@@ -6,3 +6,8 @@ AMD Radeon(TM) Graphics (483 MB)
 
 Edition	Windows 11 Pro
 
+Name                                            NumberOfCores NumberOfLogicalProcessors
+----                                            ------------- -------------------------
+AMD Ryzen 7 7735HS with Radeon Graphics                     8                        16
+
+
