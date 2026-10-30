@@ -1,0 +1,27 @@
+{
+    "cpu": {
+        "model_name": "AMD Ryzen 7 7735HS with Radeon Graphics        ",
+        "microarchitecture": "AMD64",
+        "base_frequency_mhz": 3201,
+        "physical_cores": 8,
+        "logical_cores": 16
+    },
+    "cache": {
+        "L1_data": null,
+        "L2": null,
+        "L3": "512 KB",
+        "cache_line_size_bytes": 64
+    },
+    "os": {
+        "system": "Windows",
+        "release": "11",
+        "version": "10.0.26300",
+        "kernel_version": "11"
+    },
+    "python": {
+        "implementation": "CPython",
+        "version": "3.13.7",
+        "compiler": "MSC v.1944 64 bit (AMD64)",
+        "executable": "C:\\Users\\User\\PycharmProjects\\cuda-lab-02\\.venv\\Scripts\\python.exe"
+    }
+}
