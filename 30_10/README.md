@@ -1,0 +1,3 @@
+# CS482 — Parallel Computing & Performance Optimization
+
+This project evaluates memory locality, false sharing, parallel scaling, and numerical correctness on an AMD Ryzen 7 7735HS system running Windows 11. Milestone 1 investigates the effect of memory stride and loop interchange on cache locality. Milestone 2 examines cache-line contention using unpadded, padded, and privatized counters. Milestone 3 compares strong and weak scaling using a parallel 2D stencil kernel and estimates arithmetic intensity using the Roofline model. All performance conclusions are based on measurements collected from the local machine, and numerical results are validated using the provided verification script.
