@@ -1,0 +1,28 @@
+{
+    "N": 1088,
+    "M": 544,
+    "seed": 66898,
+    "matrix_dtype": "float64",
+    "algorithm_a": {
+        "name": "naive_ijk",
+        "loop_order": "i-j-k",
+        "runtime_ns": [
+            215179700,
+            216208900,
+            221634200
+        ],
+        "median_runtime_ns": 216208900.0
+    },
+    "algorithm_b": {
+        "name": "interchanged_ikj",
+        "loop_order": "i-k-j",
+        "runtime_ns": [
+            43053200,
+            45087600,
+            53925200
+        ],
+        "median_runtime_ns": 45087600.0
+    },
+    "speedup": 4.795307357233474,
+    "correctness_check": "passed"
+}
